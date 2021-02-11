@@ -1,6 +1,9 @@
 # PhoneBook.Net
 For those occasions when your phone's contact list just isn't enough.
 
+# Build Status
+![PhoneBook CI](https://github.com/JadedEric/phonebook/workflows/PhoneBook%20CI/badge.svg)
+
 # Technologies being used
 * .Net 5 WebApi
 * Angular 11
