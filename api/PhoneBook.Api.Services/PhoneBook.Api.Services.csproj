@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneBook.Api.DomainModels\PhoneBook.Api.DomainModels.csproj" />
+    <ProjectReference Include="..\PhoneBook.Api.UnitOfWork\PhoneBook.Api.UnitOfWork.csproj" />
+    <ProjectReference Include="..\PhoneBook.Api.ViewModels\PhoneBook.Api.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
