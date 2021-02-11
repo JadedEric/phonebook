@@ -2,6 +2,7 @@
 For those occasions when your phone's contact list just isn't enough.
 
 ### Tasks
+- [ ] GitHub Actions - CI
 - [ ] .Net WebApi
   - [ ] DbContext
   - [ ] Repositories
