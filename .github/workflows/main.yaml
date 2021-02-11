@@ -3,6 +3,21 @@ name: PhoneBook CI
 on: [pull_request]
 
 jobs:
+  api:
+    name: API Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: api
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '5.0.103'
+      - run: dotnet build
+
   web:
     name: Web Build
     runs-on: ubuntu-latest
@@ -14,7 +29,7 @@ jobs:
         node-version: [14.x]
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Cache Node Modules
         uses: actions/cache@v1
         with:
