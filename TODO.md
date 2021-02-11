@@ -14,10 +14,10 @@ For those occasions when your phone's contact list just isn't enough.
 - [ ] Containerize
 
 ### In Progress
-- [ ] Create Angular project
 - [ ] Create Dockerfile
 - [ ] Create Docker-Componse
 
 ### Completed
 - [x] Create solution structure
 - [x] Create .net 5 project
+- [x] Create Angular project
