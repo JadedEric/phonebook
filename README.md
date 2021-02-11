@@ -1,5 +1,5 @@
 # PhoneBook.Net
-For those occations when your phone's contact list just isn't enough.
+For those occasions when your phone's contact list just isn't enough.
 
 # Technologies being used
 * .Net 5 WebApi
