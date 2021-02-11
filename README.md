@@ -13,6 +13,7 @@ The intent behind this repository is to learn something new, expand on already g
 * Fontawesome
 * SQLite
 * Docker
+* Github Actions
 
 # Patterns
 * Repository Pattern
