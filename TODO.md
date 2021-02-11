@@ -3,7 +3,13 @@ For those occasions when your phone's contact list just isn't enough.
 
 ### Tasks
 - [ ] .Net WebApi
+  - [ ] DbContext
+  - [ ] Repositories
+  - [ ] Services
+  - [ ] Unit Tests for Repositories
 - [ ] Angular SPA
+  - [ ] PhoneBook selection
+  - [ ] PhoneBook entries display
 - [ ] Dockerize
 - [ ] Containerize
 
