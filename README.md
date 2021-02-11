@@ -1,6 +1,8 @@
 # PhoneBook.Net
 For those occasions when your phone's contact list just isn't enough.
 
+The intent behind this repository is to learn something new, expand on already gained knowledge and just having fun as a developer. I saw this as an opportunity to showcase my knowledge of .net 5.0, Angular and micro service architecture and felt that, because I'm not that familiar with GitHub Actions to use this opportunity to push code, build and show the status thereof.
+
 # Build Status
 ![PhoneBook CI](https://github.com/JadedEric/phonebook/workflows/PhoneBook%20CI/badge.svg)
 
