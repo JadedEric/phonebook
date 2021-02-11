@@ -8,9 +8,9 @@ For those occasions when your phone's contact list just isn't enough.
 - [ ] Containerize
 
 ### In Progress
-- [-] Create Angular project
-- [-] Create Dockerfile
-- [-] Create Docker-Componse
+- [ ] Create Angular project
+- [ ] Create Dockerfile
+- [ ] Create Docker-Componse
 
 ### Completed
 - [x] Create solution structure
