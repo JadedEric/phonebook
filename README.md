@@ -34,7 +34,10 @@ The project is split into a custom-derived mono-repo layout, where the API layer
 		* PhoneBook.Api.UnitTests
 		* PhoneBook.Api.ViewModels
 * web
-	* Angular project
+	* src
+		* app
+			* models
+			* services
 
 # API Layer
 The API layer has been structured to fit into the constructs of a typical micro-service layer, with a bit of customization to fit my views.
@@ -54,7 +57,30 @@ As such, I see the solution structure for this PhoneBook application as follows.
 # Angular layer
 The Angular layer is a very basic Angular project with a very small footprint.
 
+I have added folders to house the **models** and the **services** needed, as well as entry in the **environments** to point to the API layer, once run as a local instance.
+
 # Getting up and running
 There are currently two ways of getting the system to run. Both the API layer and the Angular layer run as individual projects, meaning for the Angular to read the end points, must the API layer be running.
 
-You can choose either to run this project as a Docker container solutions, via the docker-compose.yml in the root, or start the two applications up seperately.
+For now, the project has to be run locally, once the repository has been cloned. I am still working on the Docker container for the project and hope to have that task completed within due course.
+
+Simply clone the repository down, then in the **api** folder, run:
+
+```csharp
+dotnet run
+```
+
+This will launch the API on https://localhost:5001 and load the swagger documentation as the landing page.
+
+Next, inside the **web** folder, execute the following CLI command:
+
+```powershell
+npm run start
+```
+
+Which will launch Node's server listener on http://localhost:4200
+
+The web application listens for :5001 on localhost for the API and a CORS allowance has been added for :4200 to continue.
+
+# TODO
+Please refer to the TODO.md file in the root for progress
