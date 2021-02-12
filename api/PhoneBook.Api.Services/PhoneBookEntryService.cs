@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace PhoneBook.Api.Services
 {
-    public class PhoneBookEntryManager
+    public class PhoneBookEntryService
     {
         private readonly IUnitOfWork _unitofwork;
         private readonly IMapper _mapper;
 
-        public PhoneBookEntryManager(IUnitOfWork unitofwork, IMapper mapper)
+        public PhoneBookEntryService(IUnitOfWork unitofwork, IMapper mapper)
         {
             _unitofwork = unitofwork;
             _mapper = mapper;
